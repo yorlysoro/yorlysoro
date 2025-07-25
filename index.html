@@ -1,102 +1,165 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Yorlys Oropeza Desarrollador</title>
-        <meta name="description" content="Yorlys Oropeza desarrollador odoo, python, html, css, js">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <header class="about-me">
-            <div class="about-info">
-                <img src="./images/code-photo.jpg" alt="laptop with code" class="code-photo">
-                <p>Me considero un amante de la tecnología, y una persona en constante aprendizaje,<br/>
-                    en constante busqueda de nuevas tecnologias
-                    y en continuo crecimiento personal y profesional.
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Yorlys Oropeza - Mejorado</title>
+    <!-- Incluye Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f4f7f6; /* Un color de fondo suave */
+        }
+        .container {
+            max-width: 900px; /* Ancho máximo para el contenido principal */
+        }
+        .section-title {
+            border-bottom: 2px solid #3b82f6; /* Un borde azul para los títulos de sección */
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .job-title {
+            color: #1f2937; /* Color oscuro para el título del puesto */
+        }
+        .job-dates {
+            color: #6b7280; /* Color gris para las fechas */
+        }
+        .skill-badge {
+            background-color: #e0f2fe; /* Fondo azul claro para las habilidades */
+            color: #1e40af; /* Texto azul oscuro */
+        }
+    </style>
+</head>
+<body class="p-4 sm:p-6 md:p-8">
+    <div class="container mx-auto bg-white shadow-lg rounded-lg overflow-hidden p-6 md:p-10">
+
+        <!-- Encabezado y Resumen Profesional -->
+        <header class="flex flex-col sm:flex-row items-center sm:items-start mb-8 pb-4 border-b-2 border-gray-200">
+            <div class="flex-shrink-0 mb-4 sm:mb-0 sm:mr-6">
+                <!-- Placeholder para la imagen de perfil -->
+                <img src="https://placehold.co/120x120/E0F2FE/1E40AF?text=YO" alt="Yorlys Oropeza" class="rounded-full w-24 h-24 sm:w-32 sm:h-32 object-cover border-4 border-blue-500 shadow-md">
+            </div>
+            <div class="text-center sm:text-left">
+                <h1 class="text-4xl font-bold text-gray-900 mb-2">Yorlys Oropeza</h1>
+                <p class="text-xl text-blue-600 font-semibold mb-3">Desarrollador Backend Odoo Python</p>
+                <p class="text-gray-700 leading-relaxed">
+                    Desarrollador Backend Odoo Python con más de 5 años de experiencia comprobada en el diseño, desarrollo e implementación de módulos personalizados y optimización de procesos empresariales. Experto en integración con APIs REST y comprometido con la entrega de soluciones escalables que impulsan la eficiencia operativa y mejoran la productividad.
                 </p>
             </div>
         </header>
-        <main>
-            <section class="experience">
-                <h3>Experiencia</h3>
-                <div class="experience-tech">
-                    <div class="python">
-                        <h4>Python</h3>
-                        <img src="./images/python.png" alt="python logo">
-                        <p>Desarrollo de aplicaciones en Python en diferentes tecnologias/frameworks como Django, Odoo ERP, desarrollo de scripts para automatización.</p>
-                    </div>
-                    <div class="web-dev">
-                        <h4>HTML/CSS/JS</h4>
-                        <img src="./images/web.png" alt="Desarrollo Web HTML CSS JS">
-                        <p>Desarrollo de paginas web a medida usando tecnologias como Html, Css y Javascript.</p>
-                    </div>
-                    <div class="server">
-                        <h4>Servidores/Hosting</h4>
-                        <img src="./images/server.png" alt="Servidores">
-                        <p>Instalación y Configuración de Servidores, tanto desde lineas de comando como en servicios de hosting en la nube<br/>
-                            , como Hostinger, Digital Ocean, CPanel, HPanel, entre otros.</p>
-                    </div>
-    
-                </div>
-                <div class="experience-work">
-                    <h3>Trabajo</h3>
-                    <div class="job-container">
-                        <div class="job-info">
-                            <h4 class="title-job">Trabajo Independiente / Freelancer</h4>
-                            <p class="job-time">Actualidad</p>
-                            <p class="job-description">Desarrollo de paginas web, instalción y configuración de servidores,<br/>
-                                Instalación de sistemas tipo Odoo, OJS, entre otros</p>
-                        </div>
-                        <div class="job-info">
-                            <h4 class="title-job">INGEINT C.A</h4>
-                            <p class="job-time">08-2022 - Actualidad</p>
-                            <p class="job-description">Desarrollo Python con el sistema Odoo ERP, Desarrollo y Modificación de Modulos en Odoo, <br/>
-                                Interconexión con pasarelas de pagos y Odoo.
-                            </p>
-                        </div>
-                        <div class="job-info">
-                            <h4 class="title-job">Universidad ISEP</h4>
-                            <p class="job-time">11-2020 - 02-2022</p>
-                            <p class="job-description">Manejo del sistema ERP Odoo on-promise, desarrollo de módulos personalizados, <br/>
-                                configuración, integración con otras plataformas y consumo de API's</p>
-                        </div>
-                        <div class="job-info">
-                            <h4 class="title-job">Mobilize</h4>
-                            <p class="job-time">02-2022 - 03-2022</p>
-                            <p class="job-description">Desarrollo y modificacion de modulos en odoo</p>
-                        </div>
-                    </div>
-                    
-                </div>
-            </section>
-        </main>
-        <footer>
-            <div class="contact">
-                <div class="telegram">
-                    <label for="telegram">Telegram: 
-                    <a id="telegram" href="https://t.me/yorlysoro" target="_blank">yorlysoro</a>
-                    </label>
-                </div>
-                <div class="linkedin">
-                    <label for="linkedin">Linkedin: 
-                        <a href="https://www.linkedin.com/in/yorlys-oropeza-2a362212a" target="_blank">Yorlys Oropeza</a>
-                    </label>
-                </div>
-                <div class="github">
-                    <label for="github">Github:
-                        <a href="https://github.com/yorlysoro" target="_blank">yorlysoro</a>
-                    </label>
-                </div>
-                <div class="mail">
-                    <label for="mail">Mail:
-                        <a href="mailto:yorlysoro@gmail.com" target="_blank">yorlysoro@gmail.com</a>
-                    </label>
-                </div>
+
+        <!-- Contacto y Redes -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-gray-800 section-title">Contacto</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-gray-700">
+                <p><strong class="font-medium">Teléfono:</strong> +5804245544884</p>
+                <p><strong class="font-medium">Correo:</strong> yorlysoro@gmail.com</p>
+                <p><strong class="font-medium">Ubicación:</strong> Barquisimeto, Lara, Venezuela</p>
+                <p><strong class="font-medium">LinkedIn:</strong> <a href="https://linkedin.com/in/yorlys-oropeza-2a362212a" target="_blank" class="text-blue-600 hover:underline">linkedin.com/in/yorlys-oropeza-2a362212a</a></p>
+                <p><strong class="font-medium">GitHub:</strong> <a href="https://github.com/yorlysoro" target="_blank" class="text-blue-600 hover:underline">github.com/yorlysoro</a></p>
+                <p><strong class="font-medium">Wakatime:</strong> <a href="https://wakatime.com/@yorlysro" target="_blank" class="text-blue-600 hover:underline">wakatime.com/@yorlysro</a></p>
             </div>
-        </footer>
-        
-        
-    </body>
+        </section>
+
+        <!-- Habilidades -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-gray-800 section-title">Habilidades</h2>
+            <div class="flex flex-wrap gap-2">
+                <span class="skill-badge px-3 py-1 rounded-full text-sm font-medium">Python</span>
+                <span class="skill-badge px-3 py-1 rounded-full text-sm font-medium">PHP</span>
+                <span class="skill-badge px-3 py-1 rounded-full text-sm font-medium">SQL</span>
+                <span class="skill-badge px-3 py-1 rounded-full text-sm font-medium">Odoo</span>
+                <span class="skill-badge px-3 py-1 rounded-full text-sm font-medium">Django</span>
+                <span class="skill-badge px-3 py-1 rounded-full text-sm font-medium">Laravel</span>
+                <span class="skill-badge px-3 py-1 rounded-full text-sm font-medium">Desarrollo RESTful</span>
+                <span class="skill-badge px-3 py-1 rounded-full text-sm font-medium">Integración de Sistemas</span>
+                <span class="skill-badge px-3 py-1 rounded-full text-sm font-medium">PostgreSQL</span>
+                <span class="skill-badge px-3 py-1 rounded-full text-sm font-medium">MySQL</span>
+                <span class="skill-badge px-3 py-1 rounded-full text-sm font-medium">MariaDB</span>
+                <span class="skill-badge px-3 py-1 rounded-full text-sm font-medium">Linux</span>
+                <span class="skill-badge px-3 py-1 rounded-full text-sm font-medium">Docker</span>
+                <span class="skill-badge px-3 py-1 rounded-full text-sm font-medium">MVC</span>
+                <span class="skill-badge px-3 py-1 rounded-full text-sm font-medium">Desarrollo Modular</span>
+                <span class="skill-badge px-3 py-1 rounded-full text-sm font-medium">Resolución de Problemas</span>
+                <span class="skill-badge px-3 py-1 rounded-full text-sm font-medium">Aprendizaje Continuo</span>
+            </div>
+        </section>
+
+        <!-- Experiencia Laboral -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-gray-800 section-title">Experiencia Laboral</h2>
+
+            <div class="mb-6">
+                <h3 class="text-xl font-semibold job-title">Desarrollador PHP con Laravel</h3>
+                <p class="text-md job-dates">AvantecCA | 02/2025 - Actualidad</p>
+                <ul class="list-disc list-inside text-gray-700 mt-2 space-y-1">
+                    <li>Desarrollo y mantenimiento de aplicaciones web utilizando PHP y el framework Laravel, contribuyendo a la mejora de la plataforma principal de la empresa.</li>
+                    <li>Implementación de nuevas funcionalidades y optimización de código para asegurar la escalabilidad y el rendimiento del sistema.</li>
+                </ul>
+            </div>
+
+            <div class="mb-6">
+                <h3 class="text-xl font-semibold job-title">Desarrollador de Python con Odoo</h3>
+                <p class="text-md job-dates">IngeintCA | 08/2022 - 05/2025</p>
+                <ul class="list-disc list-inside text-gray-700 mt-2 space-y-1">
+                    <li>Desarrollé soluciones Odoo a medida, desde la concepción hasta la implementación, para optimizar los flujos de trabajo internos, resultando en una mejora del X% en la eficiencia operativa.</li>
+                    <li>Integré sistemas externos utilizando APIs REST, mejorando la conectividad y el intercambio de datos entre plataformas clave.</li>
+                    <li>Realicé personalizaciones y mantenimiento de módulos Odoo existentes, asegurando la estabilidad y funcionalidad del ERP.</li>
+                </ul>
+            </div>
+
+            <div class="mb-6">
+                <h3 class="text-xl font-semibold job-title">Desarrollador Python/Odoo</h3>
+                <p class="text-md job-dates">Mobilize | 02/2022 - 03/2022</p>
+                <ul class="list-disc list-inside text-gray-700 mt-2 space-y-1">
+                    <li>Participé activamente en la modificación y desarrollo de módulos Odoo para mejorar la funcionalidad del sistema y satisfacer requisitos específicos del cliente.</li>
+                    <li>Diseñé y generé reportes personalizados, proporcionando información crítica para la toma de decisiones.</li>
+                </ul>
+            </div>
+
+            <div class="mb-6">
+                <h3 class="text-xl font-semibold job-title">Desarrollador Python</h3>
+                <p class="text-md job-dates">Universidad ISEP | 10/2020 - 02/2022</p>
+                <ul class="list-disc list-inside text-gray-700 mt-2 space-y-1">
+                    <li>Desarrollé e implementé módulos Odoo para optimizar la gestión de recursos empresariales, impactando positivamente en la eficiencia administrativa.</li>
+                    <li>Realicé personalizaciones y configuraciones para adaptar el ERP a las necesidades específicas de la universidad, mejorando la experiencia del usuario.</li>
+                </ul>
+            </div>
+
+            <div class="mb-6">
+                <h3 class="text-xl font-semibold job-title">Desarrollador Independiente</h3>
+                <p class="text-md job-dates">Proyectos Personales | Fecha Inicio - Fecha Fin (Ejemplo: 2018 - 2020)</p>
+                <ul class="list-disc list-inside text-gray-700 mt-2 space-y-1">
+                    <li>Lideré el desarrollo y la personalización de módulos Odoo para diversos clientes, abordando sus necesidades específicas y entregando soluciones funcionales.</li>
+                    <li>Gestioné el ciclo de vida completo de proyectos, desde la recopilación de requisitos hasta la implementación y soporte post-lanzamiento.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Educación -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-gray-800 section-title">Educación</h2>
+            <div class="mb-4">
+                <h3 class="text-xl font-semibold job-title">Ingeniería de Sistemas</h3>
+                <p class="text-md job-dates">UNEFA-LARA, Venezuela | 07/2014 - 08/2020</p>
+            </div>
+            <div class="mb-4">
+                <h3 class="text-xl font-semibold job-title">Bachiller en Ciencias</h3>
+                <p class="text-md job-dates">Liceo Bolivariano Madre Emilia, Venezuela | Fecha de Graduación</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-semibold job-title">Plataformas de Educación Online</h3>
+                <p class="text-md job-dates">Platzi | <a href="https://platzi.com/p/yorlysoropeza/" target="_blank" class="text-blue-600 hover:underline">platzi.com/p/yorlysoropeza/</a></p>
+            </div>
+        </section>
+
+        <!-- Declaración Final -->
+        <section class="text-center text-gray-700 mt-8 pt-4 border-t-2 border-gray-200">
+            <p class="text-lg italic">"Siempre dispuesto a aprender nuevas tecnologías, a realizar y participar constantemente en proyectos, y me considero una persona en un aprendizaje continuo."</p>
+        </section>
+
+    </div>
+</body>
 </html>
