@@ -153,6 +153,79 @@
                 </div>
             </div>
         </section>
+
+        <section id="servicios" class="relative py-24 px-6 bg-cyber-dark border-t border-gray-800 overflow-hidden">
+            <div class="absolute inset-0 bg-[linear-gradient(rgba(123,44,191,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(123,44,191,0.02)_1px,transparent_1px)] bg-[size:60px_60px] pointer-events-none"></div>
+
+            <div class="container mx-auto max-w-6xl relative z-10">
+                <h2 class="text-cyber-purple font-display text-3xl md:text-4xl font-bold uppercase tracking-widest mb-12">
+                    <span class="text-gray-500 text-xl font-normal mr-2">02 //</span> Catálogo de Servicios
+                </h2>
+
+                <div class="relative group">
+                    
+                    <button id="btn-prev" class="absolute left-0 top-1/2 -translate-y-1/2 -ml-4 md:-ml-6 z-20 bg-cyber-dark border border-cyber-cyan text-cyber-cyan p-3 hover:bg-cyber-cyan hover:text-cyber-dark transition-all hidden md:block" aria-label="Servicio anterior">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+                    </button>
+
+                    <div id="services-track" class="flex overflow-x-auto snap-x snap-mandatory gap-6 pb-8 pt-4 hide-scrollbar scroll-smooth">
+                        
+                        <article class="snap-center shrink-0 w-[85vw] md:w-[45%] lg:w-[30%] bg-cyber-darker border border-gray-700 hover:border-cyber-cyan p-8 group transition-all duration-300">
+                            <div class="text-cyber-cyan mb-6 bg-cyber-cyan/10 w-16 h-16 flex items-center justify-center rounded-none shadow-neon-cyan">
+                                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                            </div>
+                            <h3 class="text-xl font-display font-bold text-white mb-3 uppercase tracking-wide">Desarrollo de Software</h3>
+                            <p class="text-gray-400 font-body">Desarrollo de software a medida. Soluciones arquitectónicas diseñadas específicamente para resolver los cuellos de botella de tu modelo de negocio.</p>
+                        </article>
+
+                        <article class="snap-center shrink-0 w-[85vw] md:w-[45%] lg:w-[30%] bg-cyber-darker border border-gray-700 hover:border-cyber-magenta p-8 group transition-all duration-300">
+                            <div class="text-cyber-magenta mb-6 bg-cyber-magenta/10 w-16 h-16 flex items-center justify-center rounded-none shadow-neon-magenta">
+                                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path></svg>
+                            </div>
+                            <h3 class="text-xl font-display font-bold text-white mb-3 uppercase tracking-wide">Odoo ERP</h3>
+                            <p class="text-gray-400 font-body">Desarrollo de módulos y personalizaciones. Adapto el ERP estándar a la realidad operativa de tu empresa, no al revés.</p>
+                        </article>
+
+                        <article class="snap-center shrink-0 w-[85vw] md:w-[45%] lg:w-[30%] bg-cyber-darker border border-gray-700 hover:border-cyber-yellow p-8 group transition-all duration-300">
+                            <div class="text-cyber-yellow mb-6 bg-cyber-yellow/10 w-16 h-16 flex items-center justify-center rounded-none shadow-neon-yellow">
+                                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>
+                            </div>
+                            <h3 class="text-xl font-display font-bold text-white mb-3 uppercase tracking-wide">API Rest</h3>
+                            <p class="text-gray-400 font-body">Desarrollo de API y conexiones con otros sistemas. Creación de endpoints seguros y documentados para garantizar la fluidez de datos.</p>
+                        </article>
+
+                        <article class="snap-center shrink-0 w-[85vw] md:w-[45%] lg:w-[30%] bg-cyber-darker border border-gray-700 hover:border-cyber-cyan p-8 group transition-all duration-300">
+                            <div class="text-cyber-cyan mb-6 bg-cyber-cyan/10 w-16 h-16 flex items-center justify-center rounded-none shadow-neon-cyan">
+                                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                            </div>
+                            <h3 class="text-xl font-display font-bold text-white mb-3 uppercase tracking-wide">Python y PHP</h3>
+                            <p class="text-gray-400 font-body">Desarrollo profesional. Código limpio, mantenible y testeable respaldado por las mejores prácticas de la industria.</p>
+                        </article>
+
+                        <article class="snap-center shrink-0 w-[85vw] md:w-[45%] lg:w-[30%] bg-cyber-darker border border-gray-700 hover:border-cyber-purple p-8 group transition-all duration-300">
+                            <div class="text-cyber-purple mb-6 bg-cyber-purple/10 w-16 h-16 flex items-center justify-center rounded-none shadow-[0_0_15px_rgba(123,44,191,0.5)]">
+                                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path></svg>
+                            </div>
+                            <h3 class="text-xl font-display font-bold text-white mb-3 uppercase tracking-wide">IA & Integraciones</h3>
+                            <p class="text-gray-400 font-body">Make, N8N y agentes de voz. Automatización de flujos de trabajo e integración de Modelos de Lenguaje (LLMs) en entornos productivos.</p>
+                        </article>
+
+                        <article class="snap-center shrink-0 w-[85vw] md:w-[45%] lg:w-[30%] bg-cyber-darker border border-gray-700 hover:border-gray-300 p-8 group transition-all duration-300">
+                            <div class="text-gray-300 mb-6 bg-gray-600/20 w-16 h-16 flex items-center justify-center rounded-none shadow-[0_0_15px_rgba(209,213,219,0.3)]">
+                                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"></path></svg>
+                            </div>
+                            <h3 class="text-xl font-display font-bold text-white mb-3 uppercase tracking-wide">Linux & Servidores</h3>
+                            <p class="text-gray-400 font-body">Administración y configuración de servidores Linux, hosting, despliegues con Docker y mantenimiento de infraestructura web.</p>
+                        </article>
+
+                    </div>
+
+                    <button id="btn-next" class="absolute right-0 top-1/2 -translate-y-1/2 -mr-4 md:-mr-6 z-20 bg-cyber-dark border border-cyber-cyan text-cyber-cyan p-3 hover:bg-cyber-cyan hover:text-cyber-dark transition-all hidden md:block" aria-label="Servicio siguiente">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                    </button>
+                </div>
+            </div>
+        </section>
         
         </main>
 
