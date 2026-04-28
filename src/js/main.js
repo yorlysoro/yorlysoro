@@ -4,13 +4,6 @@ import { initCarousel } from './components/carousel.js';
 document.addEventListener('DOMContentLoaded', () => {
     console.log("YORLYS.SYS // INICIALIZADO V1.0");
     
-    // Inicializar carrusel de servicios
-    initCarousel('services-track', 'btn-prev', 'btn-next');
-});
-
-document.addEventListener('DOMContentLoaded', () => {
-    console.log("YORLYS.SYS // INICIALIZADO V1.0");
-    
     // Inicializar carrusel de Servicios
     initCarousel('services-track', 'btn-prev', 'btn-next');
 
